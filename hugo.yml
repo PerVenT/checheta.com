@@ -16,7 +16,7 @@ module:
     - path: github.com/PerVenT/hugo-checheta-theme
 
 params:
-  description: Наставництво «4 кроки до мрії», гра «Алмазна мудрість» і безкоштовні уроки Тетяни Чечети.
+  description: Наставництво «4 кроки до мрії», гра «Алмазна мудрість» і безкоштовні уроки від Тетяни Чечети
   brand: Тетяна Чечета
   role: кармолог · наставниця
   avatar: images/avatar.jpg
