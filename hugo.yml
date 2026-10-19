@@ -1,0 +1,70 @@
+baseURL: https://checheta.com/
+title: Тетяна Чечета
+timeZone: Europe/Kyiv
+locale: uk
+defaultContentLanguage: uk
+defaultContentLanguageInSubdir: false
+languages:
+  uk:
+    weight: 1
+    label: Українська
+disableKinds: [taxonomy, term]
+enableRobotsTXT: true
+
+module:
+  imports:
+    - path: github.com/PerVenT/hugo-checheta-theme
+
+params:
+  description: Наставництво «4 кроки до мрії», гра «Алмазна мудрість» і безкоштовні уроки Тетяни Чечети.
+  brand: Тетяна Чечета
+  role: кармолог · наставниця
+  avatar: images/avatar.jpg
+  # og_image: images/og.jpg # прев'ю посилань у соцмережах; без нього — головне фото (hero), обрізане до 1200×630
+  email: "tanyachecheta85@gmail.com"
+  telegram:
+    username: "tanyachecheta" # TODO: Telegram Тані без @ — кнопки «Хочу поговорити» й «Написати в Telegram»
+  telegram_channel: "https://t.me/+OegpKoW3-CsxYzhi" # TODO: посилання на Telegram-канал, https://t.me/...
+  bot:
+    username: "" # етап 3: бот підтвердження оплати
+  forms:
+    endpoint: "" # TODO: URL вебхука n8n; порожньо — форми пропонують написати в Telegram
+  api:
+    endpoint: "" # етап 2: api для оплати через monobank/WayForPay
+  umami:
+    src: "https://seo.pervent.dev/colours.js" # TODO: https://<інстанс Umami>/script.js
+    id: "01a14710-b793-7429-a0d9-11d7577e9a2e" # TODO: website-id з Umami
+  gtag:
+    id: ""
+
+menus:
+  main:
+    - name: Програми
+      url: /products/
+      weight: 1
+    - name: Уроки
+      url: /lessons/
+      weight: 2
+    - name: Контакти
+      url: /contacts/
+      weight: 3
+    - name: Про мене
+      url: /about/
+      weight: 4
+  footer:
+    - name: Про мене
+      url: /about/
+      weight: 1
+    - name: Контакти
+      url: /contacts/
+      weight: 2
+  legal:
+    - name: Оферта
+      url: /offer/
+      weight: 1
+    - name: Конфіденційність
+      url: /privacy/
+      weight: 2
+    - name: Повернення коштів
+      url: /refund/
+      weight: 3

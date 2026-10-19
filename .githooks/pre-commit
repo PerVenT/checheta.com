@@ -1,0 +1,4 @@
+#!/bin/sh
+# Blocks the commit if the site does not build: field limits, a single pinned product, youtube_id, template errors.
+# Enable once per clone: git config core.hooksPath .githooks
+hugo --renderToMemory > /dev/null || exit 1

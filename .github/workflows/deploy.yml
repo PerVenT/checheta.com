@@ -1,0 +1,68 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  # Daily rebuild: past events drop off the home page and /links without a push.
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: "0.167.0"
+  GO_VERSION: "1.27"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_ENVIRONMENT: production
+      # Theme module is fetched straight from GitHub; with a private theme THEME_TOKEN gives read access.
+      GOPRIVATE: github.com/PerVenT/*
+      THEME_TOKEN: ${{ secrets.THEME_TOKEN }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version: ${{ env.GO_VERSION }}
+          cache: false
+
+      - name: Install Hugo extended
+        run: |
+          wget -q -O "${{ runner.temp }}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+          hugo version
+
+      - name: Access to a private theme
+        if: env.THEME_TOKEN != ''
+        run: git config --global url."https://x-access-token:${THEME_TOKEN}@github.com/PerVenT/".insteadOf "https://github.com/PerVenT/"
+
+      - name: Build
+        run: hugo --gc --minify --destination public
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+  # Hosting-specific part: moving off GitHub Pages changes only this job.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
