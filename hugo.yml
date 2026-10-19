@@ -36,6 +36,14 @@ params:
     id: "01a14710-b793-7429-a0d9-11d7577e9a2e" # TODO: website-id з Umami
   gtag:
     id: ""
+  # Короткі посилання для соцмереж: checheta.com/ig/ → сторінка з UTM-мітками
+  shortlinks:
+    ig: /links/?utm_source=instagram&utm_medium=social&utm_campaign=bio
+    igs: /links/?utm_source=instagram&utm_medium=social&utm_campaign=stories
+    yt: /links/?utm_source=youtube&utm_medium=social&utm_campaign=description
+    tg: /links/?utm_source=telegram&utm_medium=social&utm_campaign=channel
+    tt: /links/?utm_source=tiktok&utm_medium=social&utm_campaign=bio
+    instagram: https://instagram.com/tanyachecheta?utm_source=youtube&utm_medium=social&utm_campaign=description
 
 menus:
   main:
