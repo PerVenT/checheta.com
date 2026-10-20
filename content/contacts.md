@@ -5,10 +5,10 @@ lead: Пиши мені — відповідаю особисто.
 ---
 ## Реквізити
 
-ФОП Чечета Тетяна Олександрівна
+ФОП Дем'яненко Тетяна Олександрівна
 ІПН: 3125200541
 UA163220010000026007340114546
-email: [tanyachecheta85@gmail.com](mailto:tanyachecheta85@gmail.com)
+email: [tetiana.o.demianenko@gmail.com](mailto:tetiana.o.demianenko@gmail.com)
 Телефон: +38(050)-277-84-45
 Адреса реєстрації: 
 

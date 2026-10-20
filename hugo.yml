@@ -1,5 +1,5 @@
 baseURL: https://checheta.com/
-title: Тетяна Чечета
+title: Тетяна Дем'яненко
 timeZone: Europe/Kyiv
 locale: uk
 defaultContentLanguage: uk
@@ -21,12 +21,12 @@ module:
     - path: github.com/PerVenT/hugo-checheta-theme
 
 params:
-  description: Наставництво «4 кроки до мрії», гра «Алмазна мудрість» і безкоштовні уроки від Тетяни Чечети
-  brand: Тетяна Чечета
+  description: Наставництво «4 кроки до мрії», гра «Алмазна мудрість» і безкоштовні уроки від Тетяни Дем'яненко
+  brand: Тетяна Дем'яненко
   role: кармолог · наставниця
   avatar: images/avatar.jpg
   # og_image: images/og.jpg # прев'ю посилань у соцмережах; без нього — головне фото (hero), обрізане до 1200×630
-  email: "tanyachecheta85@gmail.com"
+  email: "tetiana.o.demianenko@gmail.com"
   telegram:
     username: "tanyachecheta" # TODO: Telegram Тані без @ — кнопки «Хочу поговорити» й «Написати в Telegram»
   telegram_channel: "https://t.me/+OegpKoW3-CsxYzhi" # TODO: посилання на Telegram-канал, https://t.me/...
