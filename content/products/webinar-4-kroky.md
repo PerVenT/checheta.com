@@ -5,6 +5,7 @@ product_type: webinar
 # TODO: коли буде дата — status: open і start (з часом); форма реєстрації з'явиться сама
 status: open # open, close, waitlist
 start: 2026-10-25T12:00:00+02:00
+duration: 180 # хвилин, для «додати в календар»
 weight: 4
 lead: Безкоштовний вебінар про алгоритм дій, який працює на будь-які цілі.
 chips: [онлайн, безкоштовно]

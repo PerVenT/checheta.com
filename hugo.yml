@@ -33,7 +33,7 @@ params:
   bot:
     username: "" # етап 3: бот підтвердження оплати
   forms:
-    endpoint: "" # TODO: URL вебхука n8n; порожньо — форми пропонують написати в Telegram
+    endpoint: "https://auto.pervent.dev/workflow/ugFYf9Q2OQvrWnPa"
   api:
     endpoint: "" # етап 2: api для оплати через monobank/WayForPay
   umami:
@@ -53,6 +53,7 @@ params:
     instagram: https://instagram.com/tanyachecheta
     telegram: https://t.me/tanyachecheta
     youtube: https://youtube.com/@tanyachecheta
+    tiktok: https://www.tiktok.com/@tanyachecheta
 
 menus:
   main:
