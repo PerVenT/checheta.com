@@ -33,7 +33,7 @@ params:
   bot:
     username: "" # етап 3: бот підтвердження оплати
   forms:
-    endpoint: "https://auto.pervent.dev/webhook/ugFYf9Q2OQvrWnPa"
+    endpoint: "https://auto.pervent.dev/webhook/3mlvckEztfezX54w"
   api:
     endpoint: "" # етап 2: api для оплати через monobank/WayForPay
   umami:
