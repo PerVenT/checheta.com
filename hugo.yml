@@ -31,7 +31,7 @@ params:
     username: "tanyachecheta" # TODO: Telegram Тані без @ — кнопки «Хочу поговорити» й «Написати в Telegram»
   telegram_channel: "https://t.me/+OegpKoW3-CsxYzhi" # TODO: посилання на Telegram-канал, https://t.me/...
   bot:
-    username: "" # етап 3: бот підтвердження оплати
+    username: "checheta_support_bot" # етап 3: бот підтвердження оплати
   forms:
     endpoint: "https://auto.pervent.dev/webhook/3mlvckEztfezX54w"
   api:
