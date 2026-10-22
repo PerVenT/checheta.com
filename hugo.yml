@@ -49,9 +49,9 @@ params:
     tg: /links/?utm_source=telegram&utm_medium=social&utm_campaign=channel
     tt: /links/?utm_source=tiktok&utm_medium=social&utm_campaign=bio
   # Посилання на інші сайти: checheta.com/go/instagram/ → instagram.com (клік рахується в Umami подією outlink-click)
+  # /go/telegram/ тема додає сама з telegram.username
   outlinks:
     instagram: https://instagram.com/tanyachecheta
-    telegram: https://t.me/tanyachecheta
     youtube: https://youtube.com/@tanyachecheta
     tiktok: https://www.tiktok.com/@tanyachecheta
 
