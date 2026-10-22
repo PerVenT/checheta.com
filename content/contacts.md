@@ -8,7 +8,7 @@ lead: Пиши мені — відповідаю особисто.
 ФОП Дем'яненко Тетяна Олександрівна
 ІПН: 3125200541
 UA163220010000026007340114546
-email: [tetiana.o.demianenko@gmail.com](mailto:tetiana.o.demianenko@gmail.com)
+email: [info@checheta.com](mailto:info@checheta.com)
 Телефон: +38(050)-277-84-45
 Адреса реєстрації: 
 
