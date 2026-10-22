@@ -22,11 +22,11 @@ module:
 
 params:
   description: Наставництво «4 кроки до мрії», гра «Алмазна мудрість» і безкоштовні уроки від Тетяни Дем'яненко
-  brand: Тетяна Дем'яненко
-  role: кармолог · наставниця
+  brand: CHECHETA | 
+  role: твоя наставниця Таня · кармолог
   avatar: images/avatar.jpg
   # og_image: images/og.jpg # прев'ю посилань у соцмережах; без нього — головне фото (hero), обрізане до 1200×630
-  email: "tetiana.o.demianenko@gmail.com"
+  email: "info@checheta.com"
   telegram:
     username: "tanyachecheta" # TODO: Telegram Тані без @ — кнопки «Хочу поговорити» й «Написати в Telegram»
   telegram_channel: "https://t.me/+OegpKoW3-CsxYzhi" # TODO: посилання на Telegram-канал, https://t.me/...
