@@ -48,6 +48,7 @@ params:
     yt: /links/?utm_source=youtube&utm_medium=social&utm_campaign=description
     tg: /links/?utm_source=telegram&utm_medium=social&utm_campaign=channel
     tt: /links/?utm_source=tiktok&utm_medium=social&utm_campaign=bio
+    web: /products/perednavchannya-4-kroky/?utm_source=webinar&utm_medium=social&utm_campaign=sale
   # Посилання на інші сайти: checheta.com/go/instagram/ → instagram.com (клік рахується в Umami подією outlink-click)
   # /go/telegram/ тема додає сама з telegram.username
   outlinks:
