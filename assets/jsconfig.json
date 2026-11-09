@@ -2,7 +2,7 @@
  "compilerOptions": {
   "paths": {
    "*": [
-    "..\\..\\..\\..\\..\\Projects\\themes\\hugo-checheta-theme\\assets\\*"
+    "..\\..\\..\\themes\\hugo-checheta-theme\\assets\\*"
    ]
   }
  }

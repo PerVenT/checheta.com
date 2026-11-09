@@ -2,13 +2,14 @@
 title: Вебінар «4 кроки до мрії»
 id: webinar-4-kroky
 product_type: webinar
-# TODO: коли буде дата — status: open і start (з часом); форма реєстрації з'явиться сама
-status: open # open, close, waitlist
+status: close # open, close, waitlist
 start: 2026-10-25T12:00:00+02:00
 duration: 180 # хвилин, для «додати в календар»
 weight: 4
 lead: Безкоштовний вебінар про алгоритм дій, який працює на будь-які цілі.
-chips: [онлайн, безкоштовно]
+chips: 
+  - онлайн 
+  - безкоштовно
 pinned: false
 ---
 Я бачу, як ці знання змінили моє життя і продовжують змінювати. Саме тому я почала передавати їх далі.

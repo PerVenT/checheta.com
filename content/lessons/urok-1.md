@@ -1,9 +1,10 @@
 ---
-title: Урок 1. Переднавчання до «4 кроки до мрії»
+title: Безкоштовний урок
 id: lesson-1
 product_type: lesson
 draft: false
-youtube_id: "https://youtu.be/4-7VRh_cyEU"
-lead: "Почни рух до мети разом зі мною й іншими учасницями ще до старту наставництва «4 кроки до мрії»."
+youtube_id: https://youtu.be/Xey-Yn_RdeY
+lead: 4 кроки які дозволять тобі досягти будь-якої твоєї цілі
 weight: 1
+offer: /products/trening-4-kroky/ # блок «Наступний крок» з оплатою під відео; ховається, коли тренінг не open
 ---

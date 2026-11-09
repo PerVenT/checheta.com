@@ -3,5 +3,6 @@ form_webinar_success: Ти записана! Деталі надішлю на п
 form_lesson_success: Дякую! Скоро зв'яжуся з тобою.
 form_waitlist_success: Дякую! Про новий набір повідомлю тобі першій.
 form_fallback: Не вдалося надіслати форму. Напиши мені в Telegram — відповім особисто.
+form_lesson_title: Ще вагаєшся? Залиш контакт
 thanks_write: Написати мені в Telegram
 ask: "Маєш питання?"

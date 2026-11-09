@@ -2,7 +2,7 @@
 title: Гра «Алмазна мудрість»
 id: game-almazna-mudrist
 product_type: game
-status: open
+status: waitlist
 start: 2026-11-01T12:00:00+02:00
 price: 500
 payment:
