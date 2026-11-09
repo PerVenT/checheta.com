@@ -42,13 +42,17 @@ params:
   gtag:
     id: ""
   # Короткі посилання на сторінки цього сайту: checheta.com/ig/ → сторінка з UTM-мітками (перехід рахує сама сторінка)
+  # Мітки: utm_source — платформа, utm_medium — місце (bio, stories, post, video, channel, live),
+  # utm_campaign — куди веде або що рекламує (links, urok-1, trening, назва посту).
   shortlinks:
-    ig: /links/?utm_source=instagram&utm_medium=social&utm_campaign=bio
-    igs: /links/?utm_source=instagram&utm_medium=social&utm_campaign=stories
-    yt: /links/?utm_source=youtube&utm_medium=social&utm_campaign=description
-    tg: /links/?utm_source=telegram&utm_medium=social&utm_campaign=channel
-    tt: /links/?utm_source=tiktok&utm_medium=social&utm_campaign=bio
-    web: /products/trening-4-kroky/?utm_source=webinar&utm_medium=social&utm_campaign=sale
+    ig: /links/?utm_source=instagram&utm_medium=bio&utm_campaign=links
+    igs: /links/?utm_source=instagram&utm_medium=stories&utm_campaign=links
+    urok: /lessons/urok-1/?utm_source=instagram&utm_medium=stories&utm_campaign=urok-1
+    i: /lessons/urok-1/?utm_source=instagram&utm_medium=stories&utm_campaign=greeting
+    web: /products/webinar-4-kroky/?utm_source=webinar&utm_medium=social&utm_campaign=sale
+    yt: /links/?utm_source=youtube&utm_medium=video&utm_campaign=links
+    tg: /links/?utm_source=telegram&utm_medium=channel&utm_campaign=links
+    tt: /links/?utm_source=tiktok&utm_medium=bio&utm_campaign=links
   # Посилання на інші сайти: checheta.com/go/instagram/ → instagram.com (клік рахується в Umami подією outlink-click)
   # /go/telegram/ тема додає сама з telegram.username
   outlinks:
