@@ -1,7 +1,6 @@
 ---
 title: Твій доступ до тренінгу
 layout: thanks
-# Адреса з випадковим хвостом, щоб її не вгадали. Її вказати в WayForPay як адресу повернення після оплати кнопки тренінгу.
 sitemap:
   disable: true
 youtube_id: "https://youtu.be/dE2VotCd39k"

@@ -3,7 +3,7 @@ title: Переднавчання до «4 кроки до мрії»
 id: perednavchannya-4-kroky
 product_type: mini
 status: waitlist
-start: 2026-11-01
+start: 2026-12-15
 payment:
   mode: widget
   url: https://secure.wayforpay.com/button/b5ed97d0a0314
