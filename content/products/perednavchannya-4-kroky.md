@@ -21,6 +21,11 @@ results:
   - Дізнаєшся, що потрібно зробити для досягнення мети
   - Зробиш перші кроки, які раніше лякали
   - Отримаєш багато підтримки й нову впевненість
+testimonials:
+  - image: images/testimonials/perednavchannya-4-kroky/1.jpg
+  - image: images/testimonials/perednavchannya-4-kroky/2.jpg
+  - image: images/testimonials/perednavchannya-4-kroky/3.jpg
+  - image: images/testimonials/perednavchannya-4-kroky/4.jpg
 faq:
   - q: Скільки коштує переднавчання?
     a: 999 грн.

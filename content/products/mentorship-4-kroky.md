@@ -73,6 +73,19 @@ results:
   - Почнеш керувати тим, що створюєш у своєму житті
   - Отримаєш підтримку від мене й інших учасниць в групі
   - Можливість отримати допомогу від мене в особисті
+testimonials:
+  - image: images/testimonials/mentorship-4-kroky/1.jpg
+    name: Вікторія
+  - image: images/testimonials/mentorship-4-kroky/2.jpg
+    name: Ольга Хоменко
+  - image: images/testimonials/mentorship-4-kroky/3.jpg
+    name: Ольга Хоменко
+  - image: images/testimonials/mentorship-4-kroky/4.jpg
+    name: Юлія Лістрова
+  - image: images/testimonials/mentorship-4-kroky/5.jpg
+    name: Тетяна Кіц
+  - image: images/testimonials/mentorship-4-kroky/6.jpg
+    name: Тетяна Кіц
 faq:
   - q: Яку мету можна поставити?
     a: Будь-яку - нове авто, житло, гроші, стосунки мрії, зцілення від хвороби, реалізацію чи нову роботу, подорожі.

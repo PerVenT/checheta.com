@@ -22,6 +22,11 @@ results:
   - Навчишся правильно ставити цілі
   - Отримаєш покроковий алгоритм який працює для будь-якої мети
   - Зрозумієш що не дає досягти бажаного
+testimonials:
+  - image: images/testimonials/trening-4-kroky/1.jpg
+  - image: images/testimonials/trening-4-kroky/2.jpg
+  - image: images/testimonials/trening-4-kroky/3.jpg
+  - image: images/testimonials/trening-4-kroky/4.jpg
 faq:
   - q: Скільки коштує тренінг?
     a: 300 грн.
