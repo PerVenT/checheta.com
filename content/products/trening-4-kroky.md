@@ -7,6 +7,7 @@ start: 2026-11-01
 payment:
   mode: widget
   url: https://secure.wayforpay.com/button/b8b80f2bb5636
+access: /thanks/trening-6d1a6e93/ # сторінка доступу після оплати: її адреса у WayForPay (повернення) і в листі (Baserow «Продукти».access_url)
 price: 300
 weight: 2
 lead: Даю чіткий алгоритм дій по досягненню будь-якої мети. Розповідаю простою мовою на живих прикладах.
