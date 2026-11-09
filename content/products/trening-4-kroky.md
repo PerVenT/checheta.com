@@ -5,7 +5,7 @@ product_type: mini
 status: open
 start: 2026-11-01
 payment:
-  mode: widget
+  mode: checkout # замовлення з UTM через n8n; якщо воно недоступне — звичайна кнопка нижче
   url: https://secure.wayforpay.com/button/b8b80f2bb5636
 access: /thanks/trening-6d1a6e93/ # сторінка доступу після оплати: її адреса у WayForPay (повернення) і в листі (Baserow «Продукти».access_url)
 price: 300
